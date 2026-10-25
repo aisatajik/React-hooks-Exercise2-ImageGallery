@@ -1,0 +1,14 @@
+@use "../../styles/variables" as *;
+
+.message {
+  margin: 8px 0;
+  text-align: center;
+}
+
+.info {
+  color: $color-muted;
+}
+
+.error {
+  color: $color-danger;
+}

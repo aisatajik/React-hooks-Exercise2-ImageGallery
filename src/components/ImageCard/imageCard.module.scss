@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+
+.card {
+  margin: 0;
+  overflow: hidden;
+  background: $color-surface;
+  border-radius: $radius-md;
+  box-shadow: 0 4px 16px rgba(66, 32, 112, 0.12);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: $color-placeholder;
+}
+
+.caption {
+  padding: 10px 12px;
+  font-size: 14px;
+  text-align: center;
+}
